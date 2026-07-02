@@ -2,9 +2,13 @@
 
 # dependencies
 /node_modules
+node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+
+# node portable
+/node-portable
 
 # testing
 /coverage
@@ -27,12 +31,14 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
+
 # custom ignores
 *.log
 subscriptions.txt
